@@ -1,0 +1,74 @@
+{
+    "charname": "Ironman",
+    "alterego": "Tony Stark",
+    "image": "https://hdqwalls.com/wallpapers/i-am-iron-man-4k-ky.jpg",
+    "about": "Inventor Tony Stark applies his genius for high-tech solutions to problems as Iron Man, the armored Avenger.",
+    "isHero": "true",  // Or Empty
+    "isMarvel": "true" // Or Empty
+}
+
+/*
+{
+    "charname": "Black Widow",
+    "alterego": "Natasha Romanoff",
+    "image": "https://th.bing.com/th/id/R.1162939e7101f145ab69abc166beb3f7?rik=Hv2RP8OWfOBE9A&pid=ImgRaw&r=0",
+    "about": "A deadly assassin is closing in on Natasha Romanoff. Now Natasha must reunite with an unlikely group of spies from her past in order to survive and stop a lethal force from being unleashed on the world.",
+    "isHero": "true", // Or Empty
+    "isMarvel": "true" // Or Empty
+}
+
+
+
+{
+   "charname": "God of Mischief",
+    "alterego": "Loki Laufeyson",
+    "image": "https://th.bing.com/th/id/R.f2f746e12ecbf0cd4c831522b3052b1d?rik=MSPxSoXryjyl3g&riu=http%3a%2f%2fi1.hdslb.com%2fbfs%2farchive%2fc23716999ceca2ca38f7293f2e60ef88be692fa6.jpg&ehk=jrpd3ofF%2fFX8AGMl39L0nRieHwLbG12n7TphHCffolw%3d&risl=&pid=ImgRaw&r=0",
+    "about": "Loki, Prince of Asgard, Odinson, rightful heir of Jotunheim, and God of Mischief, is burdened with glorious purpose. His desire to be a king drives him to sow chaos in Asgard. In his lust for power, he extends his reach to Earth.",
+    // "isHero": "true", // Or Empty
+    "isMarvel": "true" // Or Empty
+}
+{
+    "charname": "Scarlet Witch",
+    "alterego": "Wanda Maximoff",
+    "image": "https://images3.alphacoders.com/110/thumb-1920-1105581.jpg",
+    "about": "Wanda Maximoff aimed her anger and grief over loss of her parents at Tony Stark, which drove her to HYDRA—where she gained powers—which drove her further to Ultron, where she gained perspective. Seeing the error of her ways, Wanda switched sides..",
+    // "isHero": "true", // Or Empty
+    "isMarvel": "true" // Or Empty
+}
+
+
+
+
+{
+    "charname": "Batman",
+    "alterego": "Bruce Wayne",
+    "image": "https://wallpapercave.com/wp/wp4294829.jpg",
+    "about": "In the name of his murdered parents, Bruce Wayne wages eternal war on the criminals of Gotham City. He is vengeance. He is the night. He is Batman.",
+    "isHero": "true", // Or Empty
+    // "isMarvel": "true" // Or Empty
+}
+{
+    "charname": "Wonder Woman",
+    "alterego": "Diana Prince",
+    "image": "https://cdn.wallpapersafari.com/39/77/fvsezX.jpg",
+    "about": "Beautiful as Aphrodite, wise as Athena, swifter than Hermes, and stronger than Hercules, Princess Diana of Themyscira fights for peace in Man's World.",
+    "isHero": "true", // Or Empty
+    // "isMarvel": "true" // Or Empty
+}
+
+{
+    "charname": "Joker",
+    "alterego": "Unknown",
+    "image": "https://images5.alphacoders.com/104/1041483.jpg",
+    "about": "A homicidal artist and an agent of chaos, the Clown Prince of Crime is the embodiment of everything Batman fights against…and everything he fears.",
+    // "isHero": "true", // Or Empty
+    // "isMarvel": "true" // Or Empty
+}
+{
+    "charname": "Daniel West/Eobard Thawne",
+    "alterego": "Reverse-Flash",
+    "image": "https://cdn.wallpapersafari.com/5/74/MzQ3gS.jpg",
+    "about": "For every action, there's an equal and opposite reaction. And with every step the Flash takes toward the future, someone from the future is racing backward through time to stop him—the villainous speedster known as the Reverse-Flash.",
+    // "isHero": "true", // Or Empty
+    // "isMarvel": "true" // Or Empty
+}*/

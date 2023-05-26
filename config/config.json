@@ -1,0 +1,14 @@
+{
+  "development": {
+    "url": "postgres://walnoygf:tJ5kyFhl9STd9qbNpIlk1Swv6ZIS3L9g@silly.db.elephantsql.com/walnoygf",
+    "dialect": "postgres"
+  },
+  "test": {
+    "url": "postgres://walnoygf:tJ5kyFhl9STd9qbNpIlk1Swv6ZIS3L9g@silly.db.elephantsql.com/walnoygf",
+    "dialect": "postgres"
+  },
+  "production": {
+    "url": "postgres://walnoygf:tJ5kyFhl9STd9qbNpIlk1Swv6ZIS3L9g@silly.db.elephantsql.com/walnoygf",
+    "dialect": "postgres"
+  }
+}
