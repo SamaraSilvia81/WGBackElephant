@@ -6,10 +6,11 @@ const Character = require('../models/CharacterModel').default;
 
 // Create
 router.post('/', async (req, res) => {
+  
   const { listname, userId, characterId } = req.body;
 
-  if (!listname || !userId || !characterId) {
-    res.status(422).json({ error: 'Invalid listname, userId, or characterId' });
+  if (!listname || !userId ) {
+    res.status(422).json({ error: 'Invalid listname or userId' });
     return;
   }
 
