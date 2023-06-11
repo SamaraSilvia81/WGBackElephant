@@ -31,6 +31,7 @@ router.post('/', async (req, res) => {
 
 // Add character to list
 router.post('/charlist', async (req, res) => {
+  
   const { characterId, listId } = req.body;
 
   if (!characterId || !listId) {

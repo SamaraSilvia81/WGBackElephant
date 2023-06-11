@@ -115,20 +115,20 @@ router.delete('/:id', async (req, res) => {
       return;
     }
 
-    const userId = list.userId;
+    const userId = list.UserId;
     const user = await User.findByPk(userId);
 
-    if (!user) {
-      res.status(404).json({ message: 'User not found' });
-      return;
-    }
+    // if (!user) {
+    //   res.status(404).json({ message: 'User not found' });
+    //   return;
+    // }
 
-    const character = await Character.findByPk(list.characterId);
+    const character = await Character.findByPk(list.CharacterId);
 
-    if (!character) {
-      res.status(404).json({ message: 'Character not found' });
-      return;
-    }
+    // if (!character) {
+    //   res.status(404).json({ message: 'Character not found' });
+    //   return;
+    // }
 
     //await user.removeList(list);
     //await character.removeList(list);
