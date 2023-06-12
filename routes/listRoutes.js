@@ -29,14 +29,17 @@ router.post('/', async (req, res) => {
       return;
     }
 
-    const character = await Character.findByPk(characterId);
+    if (characterId) {
+      const character = await Character.findByPk(characterId);
 
-    if (!character) {
-      res.status(404).json({ message: 'Character not found' });
-      return;
+      if (!character) {
+        res.status(404).json({ message: 'Character not found' });
+        return;
+      }
+
+      await newList.addCharacter(character); // Adiciona o personagem à lista
     }
 
-    await newList.addCharacter(character); // Adiciona o personagem à lista
     await user.addList(newList);
 
     res.status(201).json({ message: 'List created successfully' });
