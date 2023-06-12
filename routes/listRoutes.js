@@ -4,12 +4,19 @@ const User = require('../models/UserModel').default;
 const List = require('../models/ListModel').default;
 const Character = require('../models/CharacterModel').default;
 
+/* import express from 'express';
+const router = express.Router();
+import Character from '../models/CharacterModel';
+import List from '../models/ListModel';
+import User from '../models/UserModel'; */
+
 // Create
 router.post('/', async (req, res) => {
+
   const { listname, userId, characterId } = req.body;
 
-  if (!listname || !userId || !characterId) {
-    res.status(422).json({ error: 'Invalid listname, userId, or characterId' });
+  if (!listname || !userId) {
+    res.status(422).json({ error: 'Invalid listname or userId'});
     return;
   }
 
@@ -105,9 +112,11 @@ router.put('/:id', async (req, res) => {
 
 // Delete by Id
 router.delete('/:id', async (req, res) => {
+  
   const id = req.params.id;
 
   try {
+    
     const list = await List.findByPk(id);
 
     if (!list) {
@@ -115,20 +124,20 @@ router.delete('/:id', async (req, res) => {
       return;
     }
 
-    const userId = list.userId;
-    const user = await User.findByPk(userId);
+    // const userId = list.userId;
+    // const user = await User.findByPk(userId);
 
-    if (!user) {
-      res.status(404).json({ message: 'User not found' });
-      return;
-    }
+    // if (!user) {
+    //   res.status(404).json({ message: 'User not found' });
+    //   return;
+    // }
 
-    const character = await Character.findByPk(list.characterId);
+    // const character = await Character.findByPk(list.characterId);
 
-    if (!character) {
-      res.status(404).json({ message: 'Character not found' });
-      return;
-    }
+    // if (!character) {
+    //   res.status(404).json({ message: 'Character not found' });
+    //   return;
+    // }
 
     //await user.removeList(list);
     //await character.removeList(list);

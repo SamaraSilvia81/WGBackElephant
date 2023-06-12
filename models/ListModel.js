@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
-import sequelize from '../database/connection';
-import User from './UserModel';
-import Character from './CharacterModel';
+import sequelize from '../database/connection.js';
+import User from './UserModel.js';
+import Character from './CharacterModel.js';
 
 const List = sequelize.define('List', {
   listname: {

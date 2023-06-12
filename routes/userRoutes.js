@@ -3,6 +3,11 @@ const router = express.Router();
 const User = require('../models/UserModel').default;
 const List = require('../models/ListModel').default;
 
+/*import express from 'express';
+const router = express.Router();
+import List from '../models/ListModel';
+import User from '../models/UserModel';*/
+
 // Create
 router.post('/', async (req, res) => {
   const { username, email, password } = req.body;
