@@ -4,12 +4,6 @@ const User = require('../models/UserModel').default;
 const List = require('../models/ListModel').default;
 const Character = require('../models/CharacterModel').default;
 
-/* import express from 'express';
-const router = express.Router();
-import Character from '../models/CharacterModel';
-import List from '../models/ListModel';
-import User from '../models/UserModel'; */
-
 // Create
 router.post('/', async (req, res) => {
 
@@ -127,23 +121,6 @@ router.delete('/:id', async (req, res) => {
       return;
     }
 
-    // const userId = list.userId;
-    // const user = await User.findByPk(userId);
-
-    // if (!user) {
-    //   res.status(404).json({ message: 'User not found' });
-    //   return;
-    // }
-
-    // const character = await Character.findByPk(list.characterId);
-
-    // if (!character) {
-    //   res.status(404).json({ message: 'Character not found' });
-    //   return;
-    // }
-
-    //await user.removeList(list);
-    //await character.removeList(list);
     await list.destroy();
 
     res.status(200).json({ message: 'List deleted successfully' });

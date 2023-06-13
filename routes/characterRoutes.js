@@ -3,11 +3,6 @@ const router = express.Router();
 const Character  = require('../models/CharacterModel').default;
 const List  = require('../models/ListModel').default;
 
-/*import express from 'express';
-const router = express.Router();
-import Character from '../models/CharacterModel';
-import List from '../models/ListModel';*/
-
 // Create
 router.post('/', async (req, res) => {
   const { charname, alterego, image, about, isHero, isMarvel } = req.body;
